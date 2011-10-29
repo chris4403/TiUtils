@@ -1,0 +1,4 @@
+mkdir submodules
+git submodule add git@github.com:chris4403/TiUtils.git submodules/TiUtils
+cd Resources
+ln -s ../submodules/TiUtils/ti-utils.js ti-utils.js
